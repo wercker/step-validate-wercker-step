@@ -1,6 +1,6 @@
-name: validate-wercker-box
-version: 0.0.8
-description: Validates the wercker-box.yml needed when creating wercker boxes
+name: validate-wercker-step
+version: 0.0.1
+description: Validates the wercker-step.yml needed when creating wercker steps
 package-exclude:
   - wercker.yml
   - spec

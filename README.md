@@ -1,7 +1,7 @@
-validate-wercker-box
+validate-wercker-step
 =========================
 
-Validates wercker-box.yml used for creating boxes.
+Validates wercker-step.yml used for creating steps.
 
 
 Properties

@@ -1,5 +1,5 @@
 {
-  "name": "validate-wercker-box",
+  "name": "validate-wercker-step",
   "version": "0.0.1",
   "dependencies": {
     "underscore": "1.4",

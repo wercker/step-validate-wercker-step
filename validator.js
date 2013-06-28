@@ -5,7 +5,7 @@ var JSV = require("JSV").JSV
 var underscore = require("underscore")
 
 
-var werckerBoxSchema = JSON.parse(fs.readFileSync(path.join(__dirname, 'wercker-box-schema.json')).toString())
+var werckerBoxSchema = JSON.parse(fs.readFileSync(path.join(__dirname, 'wercker-step-schema.json')).toString())
 
 exports.validate = function (filename, callback) {
   if(!path.existsSync(filename)){

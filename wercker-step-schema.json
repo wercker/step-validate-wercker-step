@@ -1,0 +1,75 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "http://jsonschema.net",
+  "required":true,
+  "properties":{
+    "code-url": {
+      "type":"string",
+      "id": "http://jsonschema.net/code-url",
+      "required":false
+    },
+    "description": {
+      "type":"string",
+      "id": "http://jsonschema.net/description",
+      "required":false
+    },
+    "keywords": {
+      "type":"array",
+      "id": "http://jsonschema.net/keywords",
+      "required":false,
+      "items":
+        {
+          "type":"string",
+          "id": "http://jsonschema.net/keywords/0",
+          "required":false
+        }
+    },
+    "name": {
+      "type":"string",
+      "id": "http://jsonschema.net/name",
+      "required":true
+    },
+    "properties": {
+      "type":"object",
+      "id": "http://jsonschema.net/properties",
+      "required":false
+    },
+    "type": {
+      "type":"string",
+      "id": "http://jsonschema.net/type",
+      "required":false
+    },
+    "version": {
+      "type":"string",
+      "id": "http://jsonschema.net/version",
+      "required":true
+    },
+    "wercker-url": {
+      "type":"string",
+      "id": "http://jsonschema.net/wercker-url",
+      "required":false
+    },
+    "report-filename": {
+      "type":"string",
+      "id": "http://jsonschema.net/report-filename",
+      "required":false
+    },
+    "report-type": {
+      "type":"string",
+      "id": "http://jsonschema.net/report-type",
+      "required":false
+    },
+    "package-exclude": {
+      "type":"array",
+      "id": "http://jsonschema.net/package-exclude",
+      "required":false,
+      "items":
+        {
+          "type":"string",
+          "id": "http://jsonschema.net/package-exclude/0",
+          "required":false
+        }
+    }
+  }
+}
