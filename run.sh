@@ -1,0 +1,1 @@
+node $WERCKER_STEP_ROOT/run.js $WERCKER_SOURCE_DIR/wercker-box.yml

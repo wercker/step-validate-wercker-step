@@ -1,0 +1,19 @@
+{
+  "name": "validate-wercker-box",
+  "version": "0.0.1",
+  "dependencies": {
+    "underscore": "1.4",
+    "request": "1.9",
+    "async": "0.2",
+    "semver": "2.0",
+    "js-yaml": "2.1",
+    "JSV" : "4.0",
+    "esprima": "~ 1.0.2"
+  },
+  "devDependencies" : {
+    "jasmine-node": "1.0"
+  },
+  "scripts" : {
+    "test" : "jasmine-node spec"
+  }
+}

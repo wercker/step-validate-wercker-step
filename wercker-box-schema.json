@@ -1,0 +1,100 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "http://jsonschema.net",
+  "required":false,
+  "properties":{
+    "box-detect": {
+      "type":"object",
+      "id": "http://jsonschema.net/box-detect",
+      "required":false,
+      "properties":{
+        "detect": {
+          "type":"array",
+          "id": "http://jsonschema.net/box-detect/detect",
+          "required":true
+        },
+        "priority": {
+          "type":"number",
+          "id": "http://jsonschema.net/box-detect/priority",
+          "required":true
+        },
+        "version": {
+          "type":"null",
+          "id": "http://jsonschema.net/box-detect/version",
+          "required":false
+        }
+      }
+    },
+    "code-url": {
+      "type":"string",
+      "id": "http://jsonschema.net/code-url",
+      "required":false
+    },
+    "default-build": {
+      "type":"object",
+      "id": "http://jsonschema.net/default-build",
+      "required":false
+    },
+    "description": {
+      "type":"string",
+      "id": "http://jsonschema.net/description",
+      "required":false
+    },
+    "env": {
+      "type":"object",
+      "id": "http://jsonschema.net/env",
+      "required":false
+    },
+    "inherits": {
+      "type":"string",
+      "id": "http://jsonschema.net/inherits",
+      "required":false
+    },
+    "init-script": {
+      "type":"string",
+      "id": "http://jsonschema.net/init-script",
+      "required":false
+    },
+    "keywords": {
+      "type":"array",
+      "id": "http://jsonschema.net/keywords",
+      "required":false
+    },
+    "name": {
+      "type":"string",
+      "id": "http://jsonschema.net/name",
+      "required":true
+    },
+    "packages": {
+      "type":"array",
+      "id": "http://jsonschema.net/packages",
+      "required":false
+    },
+    "platform": {
+      "type":"string",
+      "id": "http://jsonschema.net/platform",
+      "required":false
+    },
+    "script": {
+      "type":"string",
+      "id": "http://jsonschema.net/script",
+      "required":false
+    },
+    "type": {
+      "type":"string",
+      "id": "http://jsonschema.net/type",
+      "required":true
+    },
+    "version": {
+      "type":"string",
+      "id": "http://jsonschema.net/version",
+      "required":true
+    },
+    "wercker-url": {
+      "type":"string",
+      "id": "http://jsonschema.net/wercker-url",
+      "required":false
+    }
+  }
+}
