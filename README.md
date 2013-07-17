@@ -13,4 +13,6 @@ Node.js 0.6 or higher
 
 ## Example
 
+``` yaml
 - validate-wercker-step
+```
