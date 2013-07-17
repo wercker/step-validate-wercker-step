@@ -10,3 +10,7 @@ none
 
 ## Dependencies
 Node.js 0.6 or higher
+
+## Example
+
+- validate-wercker-step
