@@ -1,5 +1,5 @@
 name: validate-wercker-step
-version: 0.0.1
+version: 0.0.2
 description: Validates the wercker-step.yml needed when creating wercker steps
 package-exclude:
   - wercker.yml
