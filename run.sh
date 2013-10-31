@@ -1,1 +1,1 @@
-node $WERCKER_STEP_ROOT/run.js $WERCKER_SOURCE_DIR/wercker-step.yml
+node $WERCKER_STEP_ROOT/run.js $PWD/wercker-step.yml
