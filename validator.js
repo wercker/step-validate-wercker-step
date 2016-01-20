@@ -8,7 +8,7 @@ var underscore = require("underscore")
 var werckerBoxSchema = JSON.parse(fs.readFileSync(path.join(__dirname, 'wercker-step-schema.json')).toString())
 
 exports.validate = function (filename, callback) {
-  if(!path.existsSync(filename)){
+  if(!fs.existsSync(filename)){
     return callback("File " + filename + " does not exist.")
   }
 
