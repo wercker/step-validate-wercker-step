@@ -4,11 +4,12 @@ var path = require("path")
 var JSV = require("JSV").JSV
 var underscore = require("underscore")
 
+var existsSync = fs.existsSync || path.existsSync;
 
 var werckerBoxSchema = JSON.parse(fs.readFileSync(path.join(__dirname, 'wercker-step-schema.json')).toString())
 
 exports.validate = function (filename, callback) {
-  if(!path.existsSync(filename)){
+  if(!existsSync(filename)){
     return callback("File " + filename + " does not exist.")
   }
 
