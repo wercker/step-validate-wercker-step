@@ -1,0 +1,3 @@
+name: validate-wercker-step
+version: 1.0.0
+summary: Validates the wercker-step.yml needed when creating wercker steps

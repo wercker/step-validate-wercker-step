@@ -1,7 +1,11 @@
-box: wercker/default
+box: node:4-stretch
 build:
   steps:
-    - install-packages:
-        packages: npm
     - npm-install
     - npm-test
+
+publish:
+  steps:
+    - publish-step:
+        auth_token: $STEPS_AUTH_TOKEN
+        owner: wercker
